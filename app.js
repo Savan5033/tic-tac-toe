@@ -54,6 +54,7 @@ const enableBoxes = () => {
     for(let box of boxs){
         box.disabled = false;
         box.innerText = "";
+        box.style = "";
     }
 }
 
